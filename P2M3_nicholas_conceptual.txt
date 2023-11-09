@@ -1,0 +1,43 @@
+                                                                CONCEPTUAL PROBLEM 
+
+
+1. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+
+Airflow adalah platform manajemen aliran kerja atau workflow yang digunakan untuk menjadwalkan, mengelola, dan memonitor rangkaian tugas 
+atau pekerjaan (tasks) yang kompleks. Dibuat dengan menggunakan Python, Airflow memungkinkan pengguna untuk mendefinisikan, menjalankan, 
+dan mengotomatiskan alur kerja data atau proses bisnis secara efisien.Airflow sering digunakan dalam lingkungan di mana pemrosesan data yang 
+terjadwal dan terstruktur diperlukan, seperti ETL (Extract, Transform, Load) dan analisis data.
+
+
+2. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+
+Great Expectations adalah alat atau framework yang digunakan untuk memvalidasi dan mengelola kualitas data dalam suatu proyek atau organisasi.
+Great Expectations membantu memastikan bahwa data yang digunakan dalam analisis atau aplikasi memiliki kualitas yang baik, sesuai dengan harapan, 
+dan dapat dipertanggungjawabkan.
+
+
+3.Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+
+Batch processing adalah metode pengolahan data di mana tugas-tugas atau pekerjaan yang bersifat serupa atau berulang dikerjakan sebagai 
+kelompok atau batch, bukan secara real-time atau secara langsung saat data diterima. Dalam konteks ini, data dikumpulkan, diproses, 
+dan dihasilkan hasilnya dalam satu periode waktu tertentu, biasanya sebagai suatu batch atau kelompok. Batch processing umumnya digunakan untuk
+tugas-tugas yang tidak memerlukan respons instan dan dapat dijadwalkan untuk dieksekusi pada waktu tertentu.
+
+Contoh Kasus Penggunaan :
+- Pengolahan Data ETL (Extract, Transform, Load):
+Batch processing digunakan secara luas dalam pekerjaan ETL di mana data diekstraksi dari sumber, diubah sesuai kebutuhan, dan disimpan dalam database.
+-Pengolahan Transaksi Keuangan Harian:
+Bank dan lembaga keuangan sering menggunakan batch processing untuk memproses transaksi keuangan harian. Misalnya, 
+perhitungan bunga, penyeimbangan rekening, atau pembayaran tagihan bulanan.
+
+Tools :
+- Apache Spark : Spark menyediakan pemrosesan data dan mendukung pemrosesan batch dan real-time. 
+  Ini dapat digunakan untuk pemrosesan data besar dengan kinerja yang lebih baik.
+
+- Apache Airflow: selain digunakan untuk otomatisasi aliran kerja, dapat digunakan untuk menjadwalkan dan mengelola batch processing.
+
+- Apache Flink : pemrosesan data yang mendukung batch processing dan stream processing. Cocok untuk kasus penggunaan di mana pemrosesan real-time juga diperlukan.
+
+
+
+
